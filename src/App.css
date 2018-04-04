@@ -1,0 +1,73 @@
+.card{
+  width: 350px;
+  height: 193px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: #ccc;
+}
+.chip{
+  width: 50px;
+  position: relative;
+  top: -10px;
+  left: 24px;
+}
+.logo{
+  width: 80px;
+  position: relative;
+  top: -13px;
+  right: -199px;
+}
+.cardNumber{
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.accountNumber{
+  font-size: 25px;
+  position: relative;
+  top: 0;
+  right: -20px;
+  margin: 0;
+  background-color: inherit;
+  border: none;
+}
+.date{
+  position: relative;
+  top: -10px;
+  right: -265px;
+  
+}
+.valid{
+  display: table-caption;
+  position: relative;
+  left: -20px;
+  top: 26px;
+  font-size: 8px;
+}
+.month{
+  font-size: 8px;
+}
+.expDate{
+  background-color: inherit;
+  border: none;
+  font-size: 18px;
+}
+.fullName{
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+  background-color: inherit;
+  border: none;
+}
+.form{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: space-around;
+}
+p{
+  margin: 0;
+}
